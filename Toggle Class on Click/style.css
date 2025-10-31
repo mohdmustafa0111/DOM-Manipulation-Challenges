@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: lightgray;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* The toggled state */
+.active {
+  background-color: lightgreen;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
