@@ -1,0 +1,69 @@
+/* 🌈 Basic Reset & Background */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #dbeafe, #f3f4f6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* 🧱 Card Container */
+.card {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+/* 🏷️ Header */
+h2 {
+  margin-bottom: 25px;
+  color: #1e3a8a;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* 🔒 Password Input Box */
+.password-container {
+  position: relative;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 12px 45px 12px 14px;
+  font-size: 16px;
+  border: 2px solid #cbd5e1;
+  border-radius: 10px;
+  outline: none;
+  background-color: #f9fafb;
+}
+
+input:focus {
+  border-color: #2563eb;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.4);
+}
+
+/* 👁️ Toggle Icon */
+.material-icons {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+  color: #64748b;
+}
+
+.material-icons:hover {
+  color: #2563eb;
+}
