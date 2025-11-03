@@ -1,0 +1,45 @@
+/* Default Light Theme */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222222;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* 🌙 Dark Theme */
+body.dark {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+body.dark button {
+  background-color: #ffcc00;
+  color: #222;
+}
+
+body.dark button:hover {
+  background-color: #e6b800;
+}
