@@ -1,3 +1,9 @@
+// Event delegation is a JavaScript technique that improves performance
+// by attaching a single event listener to a parent element to handle
+// events from multiple child elements.
+
+// Using Event Delegation here 👇
+
 // const faqContainer = document.querySelector(".faq-container");
 
 // faqContainer.addEventListener("click", (e) => {
