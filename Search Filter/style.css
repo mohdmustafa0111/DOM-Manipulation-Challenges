@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f3f4f6;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#searchBox {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  outline: none;
+  box-sizing: border-box; /* ✅ Fix: includes padding & border in width */
+}
+
+#searchBox:focus {
+  border-color: #3b82f6;
+}
+
+#itemList {
+  list-style: none;
+  padding: 0;
+}
+
+#itemList li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#itemList li:hover {
+  background: #f9fafb;
+}
