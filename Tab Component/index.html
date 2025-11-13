@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab Component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="tabs">
+      <div class="tab-buttons">
+        <button class="tab-btn active" data-tab="tab1">Home</button>
+        <button class="tab-btn" data-tab="tab2">Profile</button>
+        <button class="tab-btn" data-tab="tab3">Contact</button>
+      </div>
+
+      <div class="tab-content active" id="tab1">
+        <h2>🏠 Home Content</h2>
+        <p>Welcome to the Home tab.</p>
+      </div>
+      <div class="tab-content" id="tab2">
+        <h2>👤 Profile Content</h2>
+        <p>This is your profile tab.</p>
+      </div>
+      <div class="tab-content" id="tab3">
+        <h2>📞 Contact Content</h2>
+        <p>Contact us through this tab.</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
